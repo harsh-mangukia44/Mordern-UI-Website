@@ -9,3 +9,18 @@ body{
     background: var(--color-bg);
 }
 
+a{
+    color:unset;
+    text-decoration: none;
+}
+
+.gradientBg {
+    background: radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(34, 149, 138, 1) 100%);
+}
+
+.gradientText{
+    background: var(--gradient-text);
+    background-clip: text;
+    -webkit-background-clop: text;
+    -webkit-text-fill-color: transparent;
+}
